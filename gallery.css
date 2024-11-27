@@ -1,0 +1,759 @@
+.desktop {
+    background-color: rgba(255, 255, 255, 1.0);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  body {
+    overflow-x: hidden; 
+  }
+  /* Hover Effect: Color Transition */
+.navigation ul li a:hover,
+.mobile-menu-container ul li a:hover {
+    color: #ff5722;
+    transition: color 0.3s ease;
+}
+
+/* Click Effect: Glow */
+.navigation ul li a:active,
+.mobile-menu-container ul li a:active {
+    box-shadow: 0 0 5px #ff5722, 0 0 10px #ff5722;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+  .desktop .div {
+    background-color: rgba(255, 255, 255, 1.0);
+    background: linear-gradient(
+      180deg,
+      rgb(255, 206.53, 206.53) 0%,
+      rgb(255, 252, 252) 100%
+    );
+    width: 1440px;
+    height: 1448px;
+    position: relative;
+  }
+  
+  .desktop .overlap {
+    height: 1211px;
+    top: 37px;
+    left: 20px;
+    position: absolute;
+    width: 1420px;
+  }
+  
+  .desktop .overlap-group {
+    height: 1108px;
+    top: 103px;
+    left: 0;
+    position: absolute;
+    width: 1420px;
+  }
+  
+  .desktop .element {
+    position: absolute;
+    width: 1203px;
+    height: 1034px;
+    top: 74px;
+    left: 126px;
+    object-fit: cover;
+  }
+  
+  .desktop .group {
+    position: absolute;
+    width: 114px;
+    height: 55px;
+    top: 109px;
+    left: 644px;
+  }
+  
+  .desktop .text-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Oleo Script", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .line {
+    position: absolute;
+    width: 1294px;
+    height: 3px;
+    top: 188px;
+    left: 53px;
+  }
+  
+  .desktop .image {
+    width: 271px;
+    height: 339px;
+    top: 207px;
+    left: 1149px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .desktop .screenshot {
+    top: 248px;
+    left: 0;
+    position: absolute;
+    width: 221px;
+    height: 129px;
+    object-fit: cover;
+  }
+  
+  .desktop .img {
+    top: 920px;
+    left: 497px;
+    position: absolute;
+    width: 221px;
+    height: 129px;
+    object-fit: cover;
+  }
+  
+  .desktop .screenshot-2 {
+    position: absolute;
+    width: 125px;
+    height: 103px;
+    top: 164px;
+    left: 348px;
+    object-fit: cover;
+  }
+  
+  .desktop .screenshot-3 {
+    position: absolute;
+    width: 125px;
+    height: 103px;
+    top: 933px;
+    left: 929px;
+    object-fit: cover;
+  }
+  
+  .desktop .screenshot-4 {
+    position: absolute;
+    width: 114px;
+    height: 102px;
+    top: 685px;
+    left: 917px;
+    object-fit: cover;
+  }
+  
+  .desktop .image-2 {
+    width: 261px;
+    height: 231px;
+    top: 237px;
+    left: 150px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .desktop .image-3 {
+    width: 261px;
+    height: 231px;
+    top: 237px;
+    left: 435px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .desktop .image-4 {
+    width: 261px;
+    height: 231px;
+    top: 237px;
+    left: 720px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .desktop .image-5 {
+    width: 262px;
+    height: 231px;
+    top: 237px;
+    left: 1005px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .desktop .image-6 {
+    width: 261px;
+    height: 231px;
+    top: 488px;
+    left: 150px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .desktop .image-7 {
+    width: 261px;
+    height: 231px;
+    top: 488px;
+    left: 435px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .desktop .image-8 {
+    width: 262px;
+    height: 231px;
+    top: 489px;
+    left: 1005px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .desktop .image-9 {
+    width: 261px;
+    height: 231px;
+    top: 736px;
+    left: 150px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .desktop .image-10 {
+    width: 261px;
+    height: 231px;
+    top: 736px;
+    left: 435px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .desktop .image-11 {
+    width: 261px;
+    height: 231px;
+    top: 736px;
+    left: 720px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .desktop .image-12 {
+    width: 261px;
+    height: 231px;
+    top: 736px;
+    left: 1005px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .desktop .image-13 {
+    width: 261px;
+    height: 230px;
+    top: 489px;
+    left: 720px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .desktop .group-2 {
+    position: absolute;
+    width: 204px;
+    height: 166px;
+    top: 0;
+    left: 598px;
+    background-image: url(https://c.animaapp.com/pIMQI3UL/img/untitled-design-removebg-preview-1@2x.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  
+  
+  .desktop .text-wrapper-2 {
+    position: absolute;
+    height: 21px;
+    top: 7px;
+    left: 32px;
+    font-family: "Holtwood One SC", Helvetica;
+    font-weight: 400;
+    color: #6e0606;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 20.8px;
+    white-space: nowrap;
+  }
+  
+  .desktop .image-14 {
+    width: 26px;
+    height: 36px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .desktop .logo {
+    position: absolute;
+    width: 155px;
+    height: 147px;
+    top: 0;
+    left: 18px;
+    object-fit: cover;
+  }
+  
+  .desktop .text-wrapper-3 {
+    position: absolute;
+    top: 1318px;
+    left: 627px;
+    font-family: "Oleo Script", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .line-2 {
+    position: absolute;
+    width: 1285px;
+    height: 6px;
+    top: 1296px;
+    left: 77px;
+  }
+  .navigation ul {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: absolute; /* Positioning retained */
+    top: -90px;          /* Same top position */
+    left: 366px;        /* Same left position */
+  }
+  
+  .navigation li {
+    position: relative;
+  }
+  
+  .navigation a {
+    display: inline-block;
+    width: 97px; /* Adjust for specific links below */
+    height: 43px;
+    line-height: 43px;
+    text-align: center;
+    font-family: "Holtwood One SC", Helvetica;
+    font-size: 16px;
+    color: #6e0606;
+    background-color: #f5efef;
+    border: 2px solid #980000;
+    border-radius: 20px;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  
+  .navigation a.home {
+    background-color: #ffffff;
+  }
+  
+  .navigation a.order-online {
+    width: 234px; /* Specific width for this link */
+  }
+  
+  .navigation a.gallery {
+    width: 103px; /* Specific width for this link */
+  }
+  
+  .navigation a.contacts {
+    font-size: 14px; /* Adjust font size */
+    height: 43px;
+    line-height: 43px;
+  }
+  .mobile-nav, 
+.mobile-menu-container {
+  display: none; /* Hidden by default */
+}
+  
+  
+  @media (max-width: 1100px) {
+
+    html {
+      font-size: 55%;
+    }
+    .navigation {
+      display: flex;
+      align-items: center; /* Center items vertically */
+      justify-content: center; /* Center items horizontally */
+      position: absolute;
+      top: 0; /* Position from the top of the viewport */
+      left: 50%; /* Position from the left of the viewport */
+      transform: translate(-132%, 60%); /* Offset to truly center */
+      width: 665px; 
+      
+  }
+  
+  }
+  @media (max-width: 1100px) {
+    
+    .desktop{
+        height: 1600px;
+    }
+    body, .desktop {
+      overflow-x: hidden; 
+        overflow-y: auto; 
+  }
+    
+    .line {
+        max-width: 860px;
+        margin-left: -40px;
+    }
+    .line-2,
+    .text-wrapper-3{
+        margin-top: 90px;
+    }
+    .group-2,
+    .text-wrapper {
+        justify-content: center;
+        margin-left: -250px;
+    }
+    .image-2,
+    .image-3,
+    .image-4 {
+        margin-left: -125px;
+    }
+    .image-6,
+    .image-7,
+    .image-13 {
+        margin-left: -125px;
+    }
+    .image-9,
+    .image-10,
+    .image-11 {
+        margin-left: -125px;
+    }
+    .image-12 {
+        margin-left: -978px;
+        margin-top: 248px;
+    }
+    .image-5 {
+        margin-left: -693px;
+        margin-top: 748px;
+    }
+    .image-8 {
+        margin-left: -408px;
+        margin-top: 500px;
+    }
+    .element{
+        margin-left: -210px;
+    }
+    .line-2,
+    .text-wrapper-3{
+        margin-left: -250px;
+    }
+    .line-2{
+        max-width: 860px;
+        margin-left: -40px;
+    }
+  }
+  @media (max-width: 800px){
+    .desktop{
+        height: 2100px;
+    }
+    .navigation{
+      display: none;
+    }
+    nav.mobile-nav{
+      display: flex;
+    }
+    .menu-icon {
+      position: relative;
+      width: 48px;
+      height: 48px;
+      margin-left: 680px;
+      margin-top: -70px;
+      cursor: pointer; /* Add pointer for better UX */
+    }
+    
+    .mobile-menu-container {
+      position: fixed;
+      height: 100vh;
+      width: 100%;
+      top: 0;
+      left: 100%; /* Initially hidden off-screen */
+      background: #6E0707; /* Use a fallback dark color for var() */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 200;
+      transition: all 400ms ease;
+    }
+    
+    .mobile-menu-container.active {
+      left: 0; /* Slide in the menu */
+    }
+    
+    .mobile-menu-container .close-icon {
+      position: fixed;
+      top: 80px;
+      right: 40px;
+      color: white; /* Adjust to match the theme */
+      font-size: 24px;
+      cursor: pointer;
+      opacity: 0; /* Initially hidden */
+      pointer-events: none; /* Disable interaction */
+      transition: all 400ms ease;
+      
+    }
+    
+    .mobile-menu-container.active .close-icon {
+      opacity: 1; /* Show when menu is active */
+      pointer-events: auto; /* Enable interaction */
+    }
+    
+    .mobile-menu-container ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .mobile-menu-container ul li {
+      margin: 30px 0;
+      text-align: center;
+    }
+    
+    .mobile-menu-container ul li a {
+      display: inline-block;
+      width: 97px; /* Default width */
+      height: 43px;
+      line-height: 43px;
+      text-align: center;
+      font-family: "Holtwood One SC", Helvetica;
+      font-size: 16px;
+      color: #6e0606;
+      background-color: #f5efef;
+      border: 2px solid #980000;
+      border-radius: 20px;
+      text-decoration: none;
+      white-space: nowrap;
+      margin: 8px 0; /* Add some spacing between buttons */
+    }
+    
+    /* Adjustments for specific links */
+    .mobile-menu-container ul li a.order-online {
+      width: 234px; /* Match desktop width */
+    }
+    
+    .mobile-menu-container ul li a.gallery {
+      width: 103px; /* Match desktop width */
+    }
+    
+    .mobile-menu-container ul li a.contacts {
+      font-size: 14px; /* Match desktop font size */
+    }
+    .image-2,
+    .image-3 {
+        margin-left: -40px;
+    }
+    .image-6,
+    .image-7 {
+        margin-left: -40px;
+    }
+    .image-9,
+    .image-10 {
+        margin-left: -40px;
+    }
+    .image-5 {
+        margin-left: -895px;
+    }
+    .image-12{
+        margin-left: -610px;
+    }
+    .image-4{
+        margin-top: 1000px;
+        margin-left: -610px;
+    }
+    .image-13{
+        margin-top: 1000px;
+        margin-left: -610px;
+    }
+    .image-11{
+        margin-top: 500px;
+        margin-left: -328px;
+    }
+    .image-8{
+        margin-top: 1000px;
+        margin-left: -610px;
+    }
+    .group-2,
+    .text-wrapper,
+    .text-wrapper-3{
+        margin-left: -320px;
+    }
+    .line,
+    .line-2{
+        max-width: 740px;
+        margin-left: -60px;
+    }
+    .text-wrapper-3,
+    .line-2{
+        margin-top: 650px;
+    }
+    .text-wrapper-2,
+    .image-14{
+        margin-left: -30px;
+    }
+
+  }
+  @media (max-width: 481px){
+    .desktop{
+        height: 3700px;
+    }
+    .navigation{
+      display: none;
+    }
+    nav.mobile-nav{
+      display: flex;
+    }
+    .menu-icon {
+      position: relative;
+      width: 48px;
+      height: 48px;
+      margin-left: 330px;
+      margin-top: -70px;
+      cursor: pointer; /* Add pointer for better UX */
+    }
+    
+    .mobile-menu-container {
+      position: fixed;
+      height: 100vh;
+      width: 100%;
+      top: 0;
+      left: 100%; /* Initially hidden off-screen */
+      background: #6E0707; /* Use a fallback dark color for var() */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 200;
+      transition: all 400ms ease;
+    }
+    
+    .mobile-menu-container.active {
+      left: 0; /* Slide in the menu */
+    }
+    
+    .mobile-menu-container .close-icon {
+      position: fixed;
+      top: 80px;
+      right: 40px;
+      color: white; /* Adjust to match the theme */
+      font-size: 24px;
+      cursor: pointer;
+      opacity: 0; /* Initially hidden */
+      pointer-events: none; /* Disable interaction */
+      transition: all 400ms ease;
+      
+    }
+    
+    .mobile-menu-container.active .close-icon {
+      opacity: 1; /* Show when menu is active */
+      pointer-events: auto; /* Enable interaction */
+    }
+    
+    .mobile-menu-container ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .mobile-menu-container ul li {
+      margin: 30px 0;
+      text-align: center;
+    }
+    
+    .mobile-menu-container ul li a {
+      display: inline-block;
+      width: 97px; /* Default width */
+      height: 43px;
+      line-height: 43px;
+      text-align: center;
+      font-family: "Holtwood One SC", Helvetica;
+      font-size: 16px;
+      color: #6e0606;
+      background-color: #f5efef;
+      border: 2px solid #980000;
+      border-radius: 20px;
+      text-decoration: none;
+      white-space: nowrap;
+      margin: 8px 0; /* Add some spacing between buttons */
+    }
+    
+    /* Adjustments for specific links */
+    .mobile-menu-container ul li a.order-online {
+      width: 234px; /* Match desktop width */
+    }
+    
+    .mobile-menu-container ul li a.gallery {
+      width: 103px; /* Match desktop width */
+    }
+    
+    .mobile-menu-container ul li a.contacts {
+      font-size: 14px; /* Match desktop font size */
+    }
+    .image-2,
+    .image-6,
+    .image-9 {
+        margin-left: -90px;
+    }
+    .image-5{
+        margin-left: -945px;
+    }
+    .image-4{
+        margin-left: -660px;
+    }
+    .image-8{
+        margin-left: -945px;
+    }
+    .image-11{
+        margin-left: -660px;
+        margin-top: 1000px;
+    }
+    .image-3{
+        margin-left: -375px;
+        margin-top: 1748px;
+    }
+    .image-7{
+        margin-left: -375px;
+        margin-top: 1748px;
+    }
+    .image-10{
+        margin-left: -375px;
+        margin-top: 1748px;
+    }
+    .image-13{
+        margin-left: -660px;
+        margin-top: 2245px;
+    }
+    .image-12{
+        margin-left: -943px;
+        margin-top: 2245px;
+    }
+    .text-wrapper-2,
+    .image-14{
+        margin-left: 170px;
+        margin-top: -250px;
+    }
+    .text-wrapper,
+    .group-2,
+    .text-wrapper-3 {
+        margin-left: -510px;
+    }
+    .line,
+    .line-2{
+        max-width: 390px;
+        margin-left: -60px;
+    }
+    .text-wrapper-3,
+    .line-2{
+        margin-top: 2220px;
+    }
+    .logo{
+        margin-left: -30px;
+        margin-top: -20px;
+    }
+    .element{
+        margin-left: -550px;
+    }
+  }
+

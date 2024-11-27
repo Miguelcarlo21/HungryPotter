@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="galleryglobals.css" />
+    <link rel="stylesheet" href="gallery.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="desktop">
+      <div class="div">
+        <div class="overlap">
+          <div class="overlap-group">
+            <img
+              class="element"
+              src="https://c.animaapp.com/pIMQI3UL/img/305395349-475543754584531-3350985227285675361-n-removebg-preview.png"
+            />
+            <div class="group"><div class="text-wrapper">Gallery</div></div>
+            <img class="line" src="https://c.animaapp.com/pIMQI3UL/img/line-4.svg" />
+            <img class="image" src="https://c.animaapp.com/pIMQI3UL/img/image-7@2x.png" />
+            <img class="screenshot" src="https://c.animaapp.com/pIMQI3UL/img/screenshot-2024-10-31-123702-3@2x.png" />
+            <img class="img" src="https://c.animaapp.com/pIMQI3UL/img/screenshot-2024-10-31-123702-3@2x.png" />
+            <img
+              class="screenshot-2"
+              src="https://c.animaapp.com/pIMQI3UL/img/screenshot-2024-10-31-131842-removebg-preview-3@2x.png"
+            />
+            <img
+              class="screenshot-3"
+              src="https://c.animaapp.com/pIMQI3UL/img/screenshot-2024-10-31-131842-removebg-preview-3@2x.png"
+            />
+            <img
+              class="screenshot-4"
+              src="https://c.animaapp.com/pIMQI3UL/img/screenshot-2024-11-04-131817-removebg-preview-2@2x.png"
+            />
+            <img class="image-2" src="https://c.animaapp.com/pIMQI3UL/img/image-34@2x.png" />
+            <img class="image-3" src="https://c.animaapp.com/pIMQI3UL/img/image-36@2x.png" />
+            <img class="image-4" src="https://c.animaapp.com/pIMQI3UL/img/image-37@2x.png" />
+            <img class="image-5" src="https://c.animaapp.com/pIMQI3UL/img/image-38@2x.png" />
+            <img class="image-6" src="https://c.animaapp.com/pIMQI3UL/img/image-39@2x.png" />
+            <img class="image-7" src="https://c.animaapp.com/pIMQI3UL/img/image-40@2x.png" />
+            <img class="image-8" src="https://c.animaapp.com/pIMQI3UL/img/image-42@2x.png" />
+            <img class="image-9" src="https://c.animaapp.com/pIMQI3UL/img/image-43@2x.png" />
+            <img class="image-10" src="https://c.animaapp.com/pIMQI3UL/img/image-44@2x.png" />
+            <img class="image-11" src="https://c.animaapp.com/pIMQI3UL/img/image-45@2x.png" />
+            <img class="image-12" src="https://c.animaapp.com/pIMQI3UL/img/image-46@2x.png" />
+            <img class="image-13" src="https://c.animaapp.com/pIMQI3UL/img/image-41@2x.png" />
+            <div class="group-2"></div>
+                   <!-- Main Navigation -->
+<div class="navigation">
+    <ul>
+        <li><a href="home.html" class="home">HOME</a></li>
+        <li><a href="menu.html" class="menus">MENUS</a></li>
+        <li><a href="gallery.html" class="gallery">GALLERY</a></li>
+        <li><a href="#" class="order-online" onclick="showForm()">ORDER ONLINE</a></li> <!-- Link for ORDER ONLINE -->
+        <li><a href="#contact" class="contacts">CONTACT</a></li>
+    </ul>
+</div>
+
+<!-- Mobile Navigation -->
+<nav class="mobile-nav">
+    <div class="menu-icon">
+        <img class="icon" src="https://c.animaapp.com/6cnmmPdj/img/icon.svg" alt="Menu Icon" />
+    </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu-container">
+    <div class="close-icon">
+        <img class="icon" src="https://c.animaapp.com/gb8AVJmF/img/icon.svg" alt="Close Icon" />
+    </div>
+    <ul>
+        <li><a href="home.html" class="home">HOME</a></li>
+        <li><a href="menu.html" class="menus">MENUS</a></li>
+        <li><a href="gallery.html" class="gallery">GALLERY</a></li>
+        <li><a href="#" class="order-online" onclick="showForm()">ORDER ONLINE</a></li> <!-- Same link for ORDER ONLINE -->
+        <li><a href="#contact" class="contacts">CONTACT</a></li>
+    </ul>
+</div>
+
+<!-- The form container (move this outside navigation) -->
+<div id="formContainer" class="form-container" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.8); justify-content: center; align-items: center; z-index: 1000;">
+    <!-- Close button -->
+    <button class="close-btn" onclick="closeForm()" style="position: absolute; top: 20px; right: 20px; background: red; color: white; border: none; padding: 10px; cursor: pointer;">X</button>
+    <!-- Embed the Cognito form using an iframe -->
+    <iframe src="https://www.cognitoforms.com/f/Pls_PdkOpE-8xdpog9lKTw/1" allow="payment" style="border:0;width:90%;height:80%;"></iframe>
+</div>
+           
+          </div>
+          <img class="logo" src="https://c.animaapp.com/pIMQI3UL/img/logo@2x.png" />
+        </div>
+        <div class="text-wrapper-3">Contact</div>
+        <img class="line-2" src="https://c.animaapp.com/pIMQI3UL/img/line-8.svg" />
+      </div>
+    </div>
+     <script>
+    // Variables for navigation and mobile menu
+    const menuIcon = document.querySelector(".menu-icon");
+    const closeIcon = document.querySelector(".mobile-menu-container .close-icon");
+    const mobileMenuContainer = document.querySelector(".mobile-menu-container");
+    const menuLinks = document.querySelectorAll(".mobile-menu-container ul li a");
+
+    // Open mobile menu
+    menuIcon.addEventListener("click", () => {
+        mobileMenuContainer.classList.add("active");
+    });
+
+    // Close mobile menu
+    closeIcon.addEventListener("click", () => {
+        mobileMenuContainer.classList.remove("active");
+    });
+
+    // Close mobile menu on link click
+    menuLinks.forEach(link => {
+        link.addEventListener("click", (event) => {
+            mobileMenuContainer.classList.remove("active");
+            // If ORDER ONLINE is clicked, show the form
+            if (link.classList.contains('order-online')) {
+                event.preventDefault(); // Prevent the default navigation
+                showForm(); // Show the form
+            }
+        });
+    });
+
+    // Function to show the form
+    function showForm() {
+        document.getElementById('formContainer').style.display = 'flex'; // Show the form container
+    }
+
+    // Function to close the form
+    function closeForm() {
+        document.getElementById('formContainer').style.display = 'none'; // Hide the form container
+    }
+</script>
+<div id="contact">
+    <script src="https://www.cognitoforms.com/f/seamless.js" data-key="Pls_PdkOpE-8xdpog9lKTw" data-form="11"></script>
+ </div>
+  </body>
+</html>
